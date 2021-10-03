@@ -1,0 +1,11 @@
+{
+    "baseUrl": "https://account.blip.ai/",
+    "chromeWebSecurity": false,
+    "video": false,
+    "reporter": "cypress-mochawesome-reporter",
+    "experimentalRunEvents": true,
+    "env": {
+        "pgLogin": "login",
+        "pgRegister": "register"
+    }
+}
